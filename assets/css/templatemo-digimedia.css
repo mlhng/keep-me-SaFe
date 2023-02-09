@@ -291,6 +291,14 @@ header
 }
 
 .header-area .main-nav .logo {
+  display: block;
+  max-width:250px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+
+.header-area .main-nav .logo {
   float: left;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -907,6 +915,10 @@ About Style
 }
 
 .about-left-image img {
+  transform: scale(1.25);
+}
+
+.about-left-image img {
   margin-right: 45px;
 }
 
@@ -1340,7 +1352,7 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg-v2.jpg);
+  background-image: url(../images/quote-bg-v3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1858,7 +1870,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg-v2.jpg);
+  background-image: url(../images/footer-bg-v3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
